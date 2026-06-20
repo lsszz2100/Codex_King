@@ -72,7 +72,7 @@
 * [061. Codex 아키텍처 큰 그림 (Rust 모노레포)](061_Codex_아키텍처_큰_그림_Rust_모노레포.md)
 * [062. 코어 프로토콜 — SQ/EQ 큐 모델](062_코어_프로토콜_SQ_EQ_큐_모델.md)
 * [063. Session > Task > Turn 생명주기](063_Session_Task_Turn_생명주기.md)
-* [064. 모델 통신 — Responses API와 SSE 스트리밍](064_모델_통신_Responses_API와_SSE_스트리밍.md)
+* [064. 모델 통신 — WebSocket Responses API](064_모델_통신_WebSocket_Responses_API.md)
 * [065. 컨텍스트 압축(compaction)의 원리](065_컨텍스트_압축_compaction_의_원리.md)
 * [066. 출하 시스템 프롬프트 해부](066_출하_시스템_프롬프트_해부.md)
 * [067. apply_patch 편집 포맷 제대로 다루기](067_apply_patch_편집_포맷_제대로_다루기.md)

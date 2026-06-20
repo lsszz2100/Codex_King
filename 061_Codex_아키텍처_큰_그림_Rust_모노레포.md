@@ -57,7 +57,7 @@ docs/            ← 문서
    [사용자/UI]
        │  프롬프트
        ▼
-   [Codex 엔진(core)]  ── 모델 API(HTTP/SSE) ──▶ [GPT-5.5]
+   [Codex 엔진(core)]  ── 모델 API(WebSocket) ──▶ [GPT-5.5]
        │  도구 호출(파일/명령/MCP)
        ▼
    [샌드박스 + execpolicy + 승인]  ← 안전 계층
@@ -70,7 +70,7 @@ docs/            ← 문서
 
 - 062: 엔진과 UI의 통신 방식(SQ/EQ)
 - 063: Session·Task·Turn 생명주기
-- 064: 모델과의 HTTP/SSE 통신
+- 064: 모델과의 WebSocket 통신
 - 065: 컨텍스트 압축
 - 066~070: 프롬프트·편집·정책·샌드박스 내부
 
