@@ -2,7 +2,7 @@
 
 ![그림 74-1. 훅 라이프사이클 이벤트](images/074_hook_events.png)
 
-훅을 제대로 쓰려면 **어떤 시점에 끼어들 수 있는지**를 알아야 합니다. Codex가 제공하는 주요 라이프사이클 이벤트를 정리합니다.
+훅을 제대로 쓰려면 어떤 시점에 끼어들 수 있는지를 알아야 합니다. Codex가 제공하는 주요 라이프사이클 이벤트를 정리합니다.
 
 ## 라이프사이클 이벤트 목록
 
@@ -10,8 +10,8 @@
 |---|---|---|
 | `SessionStart` | 세션 시작/재개/clear/compact 시 | 환경 점검, 초기 컨텍스트 주입 |
 | `UserPromptSubmit` | 사용자가 프롬프트 제출 시 | 프롬프트 검사, 가이드라인 주입 |
-| `PreToolUse` | 도구(Bash/편집/MCP) 실행 **직전** | 위험 명령 차단, 검증 |
-| `PostToolUse` | 도구 실행 **직후** | 결과 로깅, 자동 포맷 |
+| `PreToolUse` | 도구(Bash/편집/MCP) 실행 직전 | 위험 명령 차단, 검증 |
+| `PostToolUse` | 도구 실행 직후 | 결과 로깅, 자동 포맷 |
 | `PermissionRequest` | 승인 프롬프트 직전 | 정책 기반 자동 판단·기록 |
 | `PreCompact` / `PostCompact` | 압축 전/후 | 중요 맥락 보존·복원 |
 | `SubagentStart` / `SubagentStop` | 서브에이전트 생애 | 서브에이전트 추적·제어 |
@@ -69,15 +69,15 @@
 
 ## 설계 팁
 
-- 훅은 **빠르게** 끝나야 합니다(매 이벤트마다 돌므로 느리면 전체가 느려짐).
-- 한 훅은 **한 가지** 일만 (단일 책임).
+- 훅은 빠르게 끝나야 합니다(매 이벤트마다 돌므로 느리면 전체가 느려짐).
+- 한 훅은 한 가지 일만 (단일 책임).
 - 실패해도 안전하게(훅 오류가 작업을 망치지 않게).
 - 민감 동작(차단·주입)은 충분히 테스트 후 신뢰 등록.
 
 ## 정리
 
-- 주요 이벤트: SessionStart, UserPromptSubmit, **Pre/PostToolUse**, PermissionRequest, Pre/PostCompact, Subagent Start/Stop, Stop
-- 패턴: **위험 명령 차단** · 자동 포맷 · 가이드라인 주입 · 감사 로그 · 압축 보호
+- 주요 이벤트: SessionStart, UserPromptSubmit, Pre/PostToolUse, PermissionRequest, Pre/PostCompact, Subagent Start/Stop, Stop
+- 패턴: 위험 명령 차단 · 자동 포맷 · 가이드라인 주입 · 감사 로그 · 압축 보호
 - JSON in/out으로 동작 제어
 - 빠르고 단일 책임으로, 신뢰 등록 후 사용
 
@@ -85,4 +85,4 @@
 
 다음 절에서 PreToolUse 훅으로 보안 검사를 직접 만들어 봅니다.
 
-> 📷 `images/074_hook_events.png` — 부록 프롬프트 참고
+> `images/074_hook_events.png` — 부록 프롬프트 참고

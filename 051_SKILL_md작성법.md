@@ -6,7 +6,7 @@
 
 ## 최소 구조
 
-스킬 디렉터리 안에 `SKILL.md`가 있고, 최소한 **name**과 **description**을 가져야 합니다.
+스킬 디렉터리 안에 `SKILL.md`가 있고, 최소한 name과 description을 가져야 합니다.
 
 ```markdown
 ---
@@ -33,12 +33,12 @@ description: FastAPI에 새 REST 엔드포인트를 테스트·문서와 함께 
 
 ## name과 description이 중요한 이유
 
-**progressive disclosure**(점진적 공개) 때문입니다.
+progressive disclosure(점진적 공개) 때문입니다.
 
-- 평소 Codex는 모든 스킬의 **name + description만** 봅니다(가볍게).
-- 작업이 description과 맞으면 그때 **본문 전체를 로드**합니다.
+- 평소 Codex는 모든 스킬의 name + description만 봅니다(가볍게).
+- 작업이 description과 맞으면 그때 본문 전체를 로드합니다.
 
-따라서 **description을 잘 쓰는 게 핵심**입니다. "언제 이 스킬을 써야 하는지"가 한눈에 드러나야 자동 선택이 잘 됩니다.
+따라서 description을 잘 쓰는 게 핵심입니다. "언제 이 스킬을 써야 하는지"가 한눈에 드러나야 자동 선택이 잘 됩니다.
 
 ```text
 [나쁨] description: 엔드포인트 관련
@@ -47,8 +47,8 @@ description: FastAPI에 새 REST 엔드포인트를 테스트·문서와 함께 
 
 ## 본문 작성 팁
 
-- **단계(steps)** 를 번호로 명확히
-- **규칙/제약**을 분명히
+- 단계(steps)를 번호로 명확히
+- 규칙/제약을 분명히
 - 필요하면 `scripts/`의 보조 스크립트를 참조
 - 너무 길지 않게 — 핵심 절차에 집중
 
@@ -80,7 +80,7 @@ create-endpoint/
 
 목록에 우리 스킬이 보이는지, description이 잘 나오는지 확인합니다.
 
-## 🧪 실습
+## 실습
 
 ```text
 .agents/skills/commit-helper/SKILL.md 를 만들어줘.
@@ -93,13 +93,13 @@ create-endpoint/
 
 ## 정리
 
-- `SKILL.md`는 **name + description**(필수) + 절차 본문
-- **description이 자동 선택의 관건** — 언제 쓰는지 명확히
+- `SKILL.md`는 name + description(필수) + 절차 본문
+- description이 자동 선택의 관건 — 언제 쓰는지 명확히
 - 단계·규칙을 분명히, 보조 파일(scripts/references)로 확장
 - `.agents/skills/`에 두고 `/skills`로 확인
 
 ---
 
-다음 절에서 나만의 커스텀 스킬을 **완성하고 사용**해 봅니다.
+다음 절에서 나만의 커스텀 스킬을 완성하고 사용해 봅니다.
 
-> 📷 `images/051_skillmd.png` — 부록 프롬프트 참고
+> `images/051_skillmd.png` — 부록 프롬프트 참고

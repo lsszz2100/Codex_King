@@ -102,12 +102,12 @@ log_dir = "..."           # 로그 위치
 # [otel] OpenTelemetry 익스포터 (엔터프라이즈 관측성, 084번)
 ```
 
-## ⚠️ 프로젝트 설정의 제한 (032번)
+## 프로젝트 설정의 제한 (032번)
 
-프로젝트 `.codex/config.toml`로는 **다음을 바꿀 수 없습니다**(보안):
-- 모델 **제공자(provider)**
-- **인증** 방식
-- **알림/텔레메트리**
+프로젝트 `.codex/config.toml`로는 다음을 바꿀 수 없습니다(보안):
+- 모델 제공자(provider)
+- 인증 방식
+- 알림/텔레메트리
 
 이들은 유저/관리 레벨에서만 설정됩니다.
 
@@ -120,19 +120,19 @@ log_dir = "..."           # 로그 위치
 
 ## TIP
 
-> 💡 전부 설정할 필요 없습니다. **기본값이 안전하고 합리적**입니다. `model`과 필요한 `[features]` 정도만 손대고, 나머지는 필요할 때 추가하세요.
+> 전부 설정할 필요 없습니다. 기본값이 안전하고 합리적입니다. `model`과 필요한 `[features]` 정도만 손대고, 나머지는 필요할 때 추가하세요.
 
-> ⚠️ 키 이름·구조는 버전에 따라 다를 수 있습니다. 공식 설정 레퍼런스(developers.openai.com/codex/config-reference)와 `/debug-config`로 현재 환경을 확인하세요.
+> 키 이름·구조는 버전에 따라 다를 수 있습니다. 공식 설정 레퍼런스(developers.openai.com/codex/config-reference)와 `/debug-config`로 현재 환경을 확인하세요.
 
 ## 정리
 
 - 위치: 유저(`~/.codex/`) vs 프로젝트(`.codex/`)
 - 핵심 영역: 모델·샌드박스·승인·권한·features·MCP·tools·AGENTS 관련
-- provider·인증·텔레메트리는 **유저/관리 레벨만**
+- provider·인증·텔레메트리는 유저/관리 레벨만
 - 기본값이 안전 — 필요한 것만 조정, `/debug-config`로 검증
 
 ---
 
 다음 절에서 CLI 서브커맨드를 정리합니다.
 
-> 📷 `images/097_config_ref.png` — 부록 프롬프트 참고
+> `images/097_config_ref.png` — 부록 프롬프트 참고

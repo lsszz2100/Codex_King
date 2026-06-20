@@ -1,17 +1,17 @@
 # 부록 — 이미지 생성 프롬프트 모음 (gpt-image-2)
 
-> 본 책의 그림은 **gpt-image-2** 로 생성하도록 설계되었습니다.
+> 본 책의 그림은 gpt-image-2로 생성하도록 설계되었습니다.
 > 아래 프롬프트를 그대로 이미지 생성에 입력한 뒤, 결과를 `book/images/` 에 같은 파일명으로 저장하세요.
-> 공통 스타일을 일관되게 유지하려면 각 프롬프트 끝에 **[공통 스타일]** 문장을 함께 붙이세요.
+> 공통 스타일을 일관되게 유지하려면 각 프롬프트 끝에 [공통 스타일] 문장을 함께 붙이세요.
 
-**[공통 스타일]**
+[공통 스타일]
 > Clean modern flat-illustration / isometric tech style, soft gradient background (teal-to-indigo, no purple-on-white cliché), bold but friendly, minimal text in English labels only, high contrast, 16:9, suitable for a programming book. Avoid clutter and "AI slop" generic look.
 
 ---
 
 ## 표지
-- **파일명**: `images/cover.png`
-- **프롬프트**: A striking book cover illustration for "GPT & Codex from Beginner to Advanced 100". A developer and a glowing AI agent robot pair-programming at a terminal, lines of code flowing into a finished web app. Title space at top. Confident, premium, modern. [공통 스타일]
+- 파일명: `images/cover.png`
+- 프롬프트: A striking book cover illustration for "GPT & Codex from Beginner to Advanced 100". A developer and a glowing AI agent robot pair-programming at a terminal, lines of code flowing into a finished web app. Title space at top. Confident, premium, modern. [공통 스타일]
 
 ## Part 0
 - `images/001_intro.png` — A human and an AI agent collaboratively coding; the AI reads files, edits code, runs tests, shown as a friendly loop of arrows. Sense of partnership. [공통 스타일]
@@ -95,7 +95,7 @@
 - `images/071_subagents.png` — A main agent conducting several named subagents returning summaries. [공통 스타일]
 - `images/072_parallel_explore.png` — Parallel subagents exploring different folders, results synthesized. [공통 스타일]
 - `images/073_hooks.png` — Hook checkpoints inserted at points along the agent loop conveyor. [공통 스타일]
-- `images/074_hook_events.png` — A timeline of hook lifecycle events (SessionStart, PreToolUse, ... Stop). [공통 스타일]
+- `images/074_hook_events.png` — A timeline of hook lifecycle events (SessionStart, PreToolUse,... Stop). [공통 스타일]
 - `images/075_security_hook.png` — A PreToolUse hook blocking a dangerous command. [공통 스타일]
 - `images/076_personality.png` — Choosing a personality: friendly vs pragmatic vs none. [공통 스타일]
 - `images/077_sdk_ts.png` — TypeScript code controlling Codex via the SDK. [공통 스타일]

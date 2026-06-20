@@ -2,7 +2,7 @@
 
 ![그림 36-1. TaskFlow용 AGENTS.md 작성](images/036_taskflow_agentsmd.png)
 
-이제 배운 걸 적용해, 우리 실전 프로젝트 **TaskFlow**의 AGENTS.md를 만듭니다. 이 파일은 Part 4에서 그대로 재사용합니다.
+이제 배운 걸 적용해, 우리 실전 프로젝트 TaskFlow의 AGENTS.md를 만듭니다. 이 파일은 Part 4에서 그대로 재사용합니다.
 
 ## Step 1. 프로젝트 폴더 준비
 
@@ -75,9 +75,9 @@ todo를 표현하는 간단한 파이썬 클래스를 todo.py에 만들어줘.
 ```
 
 관찰 포인트:
-- 주석이 **한국어**로 달리는가? (스타일 규칙)
+- 주석이 한국어로 달리는가? (스타일 규칙)
 - 테스트를 함께 만들려 하는가? (테스트 규칙)
-- 새 패키지가 필요하면 **먼저 물어보는가?** (의존성 규칙)
+- 새 패키지가 필요하면 먼저 물어보는가? (의존성 규칙)
 
 규칙대로 움직인다면, 당신은 Codex를 성공적으로 "길들인" 겁니다.
 
@@ -88,11 +88,11 @@ git add AGENTS.md
 git commit -m "Add project rules in AGENTS.md"
 ```
 
-이제 이 저장소를 받는 누구든(혹은 클라우드의 Codex든) **같은 규칙**으로 일합니다.
+이제 이 저장소를 받는 누구든(혹은 클라우드의 Codex든) 같은 규칙으로 일합니다.
 
 ## 흔한 실수
 
-> ⚠️ AGENTS.md를 소설처럼 길게 쓰지 마세요. **간결한 규칙 목록**이 가장 잘 작동합니다(32KiB 제한도 있음). 세부 배경은 별도 문서로, 규칙만 여기에.
+> AGENTS.md를 소설처럼 길게 쓰지 마세요. 간결한 규칙 목록이 가장 잘 작동합니다(32KiB 제한도 있음). 세부 배경은 별도 문서로, 규칙만 여기에.
 
 ## 정리
 
@@ -103,6 +103,6 @@ git commit -m "Add project rules in AGENTS.md"
 
 ---
 
-다음 절에서 Codex의 **Memories(기억)** 기능을 다룹니다.
+다음 절에서 Codex의 Memories(기억) 기능을 다룹니다.
 
-> 📷 `images/036_taskflow_agentsmd.png` — 부록 프롬프트 참고
+> `images/036_taskflow_agentsmd.png` — 부록 프롬프트 참고

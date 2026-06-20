@@ -12,7 +12,7 @@ Python 3.10 이상이 필요합니다.
 pip install openai-codex
 ```
 
-> Python SDK는 내부적으로 로컬 Codex **app-server**(080번)를 JSON-RPC로 제어합니다.
+> Python SDK는 내부적으로 로컬 Codex app-server(080번)를 JSON-RPC로 제어합니다.
 
 ## 가장 간단한 예제
 
@@ -101,7 +101,7 @@ for repo in REPOS:
 
 둘 다 같은 Codex 엔진을 제어하므로, 익숙한 언어를 고르면 됩니다.
 
-## 🧪 실습
+## 실습
 
 ```text
 Codex에게 시켜보세요:
@@ -121,4 +121,4 @@ requirements와 실행법도 함께."
 
 다음 절에서 SDK로 실제 작은 에이전트 앱을 만들어 봅니다.
 
-> 📷 `images/078_sdk_py.png` — 부록 프롬프트 참고
+> `images/078_sdk_py.png` — 부록 프롬프트 참고
