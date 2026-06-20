@@ -60,4 +60,4 @@
 
 ---
 
-> 이미지 자리 `images/001_intro.png` — 생성 프롬프트는 [APPENDIX_image_prompts.md](APPENDIX_image_prompts.md) 참고
+> 이미지 자리 `images/001_intro.png` — 생성 프롬프트는 [부록_이미지_생성_프롬프트.md](부록_이미지_생성_프롬프트.md) 참고

@@ -12,7 +12,7 @@ SDK·IDE 확장·데스크톱 앱은 모두 같은 곳에 연결됩니다 — ap
 
 ```text
         ┌──────────── app-server (JSON-RPC) ────────────┐
-        │                                                │
+        │                                               │
    [Python SDK]   [TypeScript SDK]   [IDE 확장]   [데스크톱 앱]
 ```
 
