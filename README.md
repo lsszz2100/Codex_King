@@ -2,6 +2,8 @@
 
 > AI 에이전트와 함께하는 바이브 코딩 — 코드 한 줄부터 1인 SaaS까지
 
+> GitHub: https://github.com/lsszz2100/Codex_King
+
 ![책 표지](images/cover.png)
 
 | 항목 | 내용 |
@@ -94,5 +96,7 @@ book/
 오탈자·개선 제안은 언제든 환영합니다.
 
 ---
+
+> GitHub: https://github.com/lsszz2100/Codex_King
 
 © 2026 AI_Innovation_Studio. 본 교재의 예제 코드는 자유롭게 사용할 수 있습니다. 라이선스 전문은 [LICENSE](LICENSE)를 참고하세요.
