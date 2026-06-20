@@ -1,0 +1,26 @@
+# ===== 절대 커밋 금지: 비밀/인증 =====
+*.pem
+*.key
+*.p12
+.env
+.env.*
+*token*
+*secret*
+*credential*
+*apikey*
+*api_key*
+
+# ===== 절대 커밋 금지: 중요 PDF/사적 문서 =====
+*.pdf
+
+# ===== 로컬 도구/에이전트 =====
+.claude/
+.codex/
+
+# ===== OS / 캐시 / 빌드 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
+node_modules/
