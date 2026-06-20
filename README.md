@@ -4,7 +4,7 @@
 
 > GitHub: https://github.com/lsszz2100/Codex_King
 
-![책 표지](https://raw.githubusercontent.com/lsszz2100/Codex_King/main/images/cover.png)
+![책 표지](assets/cover.png)
 
 | 항목 | 내용 |
 | --- | --- |
@@ -65,8 +65,8 @@ book/
 ├─ 001_*.md … 100_*.md           본문 100개 절 (파일명 = 절 번호 + 제목)
 ├─ _GPT_Codex_기초부터_고급까지_100_전체.md   100개 절 합본
 ├─ TOC.md                        위키독스 연동용 목차
-├─ images/
-│  └─ cover.png                  책 표지
+├─ assets/
+│  └─ cover.png                  책 표지 (위키독스 연동용 이미지 폴더)
 └─ LICENSE
 ```
 

@@ -134,7 +134,7 @@
 
 # 001. 머리말 — 왜 지금 GPT와 Codex인가
 
-![책 표지](https://raw.githubusercontent.com/lsszz2100/Codex_King/main/images/cover.png)
+![책 표지](assets/cover.png)
 
 ## 5년 만에 바뀐 풍경
 
