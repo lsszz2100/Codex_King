@@ -131,4 +131,4 @@ your-project/.claude/
 | claude-code-harness (연구·측정) | https://github.com/revfactory/claude-code-harness |
 | Claude Code용 Codex 플러그인 | https://github.com/openai/codex-plugin-cc |
 
-> 이 부록의 설명·패턴·수치는 위 저장소들의 README(특히 revfactory/harness)를 참고해 정리한 것입니다. 위 도구들은 서드파티(또는 타 에이전트 생태계) 프로젝트를 포함합니다. 설치 전 출처·라이선스·권한을 직접 확인하세요 — 도구는 곧 권한입니다(본문 084).
+> 위 도구들은 서드파티(또는 타 에이전트 생태계) 프로젝트를 포함합니다. 설치 전 출처·라이선스·권한을 직접 확인하세요 — 도구는 곧 권한입니다(본문 084).

@@ -1,0 +1,38 @@
+# config.toml — Codex 설정 샘플 (안전한 기본값)
+#
+# 위치: ~/.codex/config.toml (유저) 또는 <프로젝트>/.codex/config.toml (프로젝트)
+# 본문 031·032·097번 참고. 키 이름은 버전에 따라 다를 수 있으니
+# 공식 레퍼런스(developers.openai.com/codex/config-reference)와 /debug-config 로 확인하세요.
+# 필요한 줄만 남기고 나머지는 지워도 됩니다 — 기본값이 안전합니다.
+
+# ── 모델 · 추론 ─────────────────────────────
+model = "gpt-5.5"                      # 기본 모델
+model_reasoning_effort = "medium"      # minimal | low | medium | high | xhigh
+
+# ── 샌드박스 · 승인 (안전 기본값) ───────────
+sandbox_mode = "workspace-write"       # read-only | workspace-write | danger-full-access
+approval_policy = "on-request"         # untrusted | on-request | never | granular
+
+# ── 도구 ────────────────────────────────────
+[tools]
+web_search = "live"                    # disabled | cached | live
+
+# ── MCP 서버 (예시: Context7) ───────────────
+# [mcp_servers.context7]
+# command = "npx"
+# args = ["-y", "@upstash/context7-mcp"]
+# env = { CONTEXT7_API_KEY = "${CONTEXT7_API_KEY}" }   # 비밀은 환경변수로
+
+# ── 기능 토글 (필요할 때만 켜기) ────────────
+# [features]
+# multi_agent = true                   # 서브에이전트 (071)
+# hooks = true                         # 훅 (073)
+# memories = true                      # 기억 (037)
+
+# ── 권한 프로필 (예시) ──────────────────────
+# default_permissions = "dev"
+# [permissions.dev]
+# read = ["**"]
+# write = ["./src/**", "./tests/**"]
+# deny = ["./secrets/**", "./.env"]
+# network_allow = ["api.openai.com", "pypi.org"]

@@ -9782,6 +9782,16 @@ cd codex/codex-rs   # Rust 코어(Cargo 워크스페이스)
 
 > 위 링크는 2026년 6월 기준입니다. 커뮤니티 저장소·서드파티 도구를 쓸 때는 출처와 신뢰성을 직접 확인하세요(도구는 곧 권한입니다).
 
+### 바로 쓰는 템플릿
+
+이 책 저장소의 [`templates/`](https://github.com/lsszz2100/Codex_King/tree/main/templates) 폴더에 복붙용 샘플이 있습니다.
+
+| 파일 | 용도 | 관련 절 |
+| --- | --- | --- |
+| `AGENTS.md` | 프로젝트 규칙(명령·컨벤션·금지사항) | 034·036 |
+| `config.toml` | 안전한 기본값 설정 | 031·097 |
+| `hooks/block-dangerous.sh` | 위험 명령 차단 훅 | 073·075 |
+
 ---
 
 ## 5. 문제가 생겼을 때 — 1분 진단
@@ -9790,7 +9800,7 @@ cd codex/codex-rs   # Rust 코어(Cargo 워크스페이스)
 2. **결과가 엉뚱하다** → 프롬프트에 컨텍스트(관련 파일·예시·제약)가 부족하지 않은지, 작업을 더 쪼갤 수 없는지 본다.
 3. **대화가 길어지며 느려지거나 맥락을 잃는다** → `/compact`로 압축하거나 새 스레드로 분리한다.
 4. **테스트가 통과했다는데 실제로는 안 된다** → 직접 실행해 로그를 확인한다. 검증을 작업에 명시한다.
-5. **이미지·문서가 안 보인다(WikiDocs 등)** → 외부 절대 URL 대신 저장소 내 상대경로(예: `assets/`)로 참조했는지 확인한다.
+5. **이미지가 WikiDocs에서 깨진다(작은 네모)** → WikiDocs는 동기화 본문의 상대경로·`raw.githubusercontent` 이미지를 렌더링하지 못한다. jsDelivr CDN URL(`https://cdn.jsdelivr.net/gh/<user>/<repo>@main/<경로>`)로 참조하면 표시된다. GitHub 미리보기에선 둘 다 정상이라 헷갈리기 쉽다.
 6. **그래도 막히면** → 본문 099(트러블슈팅 & FAQ)와 공식 문서·Changelog를 확인한다.
 
 ---
@@ -9932,4 +9942,4 @@ your-project/.claude/
 | claude-code-harness (연구·측정) | https://github.com/revfactory/claude-code-harness |
 | Claude Code용 Codex 플러그인 | https://github.com/openai/codex-plugin-cc |
 
-> 이 부록의 설명·패턴·수치는 위 저장소들의 README(특히 revfactory/harness)를 참고해 정리한 것입니다. 위 도구들은 서드파티(또는 타 에이전트 생태계) 프로젝트를 포함합니다. 설치 전 출처·라이선스·권한을 직접 확인하세요 — 도구는 곧 권한입니다(본문 084).
+> 위 도구들은 서드파티(또는 타 에이전트 생태계) 프로젝트를 포함합니다. 설치 전 출처·라이선스·권한을 직접 확인하세요 — 도구는 곧 권한입니다(본문 084).

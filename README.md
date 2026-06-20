@@ -65,6 +65,7 @@ book/
 ├─ 001_*.md … 100_*.md           본문 100개 절 (파일명 = 절 번호 + 제목)
 ├─ _GPT_Codex_기초부터_고급까지_100_전체.md   100개 절 합본
 ├─ TOC.md                        위키독스 연동용 목차
+├─ templates/                    바로 쓰는 샘플 (AGENTS.md·config.toml·훅)
 ├─ assets/
 │  └─ cover.png                  책 표지 (위키독스 연동용 이미지 폴더)
 └─ LICENSE
