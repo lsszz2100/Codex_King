@@ -2,7 +2,9 @@
 
 본문에서 우리는 Codex 하나를 잘 다루는 법을 배웠습니다. 이 부록은 한 걸음 더 나아가, **여러 에이전트를 하나의 "팀"으로 설계하는 공학** — 하네스 엔지니어링(Harness Engineering)을 소개하고, 이를 Codex와 함께 쓰면 무엇이 좋아지는지를 정리합니다.
 
-> 참고 도구: [revfactory/harness](https://github.com/revfactory/harness) (Claude Code용 메타스킬) · Codex 포트 [SaehwanPark/meta-harness](https://github.com/SaehwanPark/meta-harness) · 연구 저장소 [revfactory/claude-code-harness](https://github.com/revfactory/claude-code-harness)
+> **이 부록은 다음 저장소의 README를 참고하여 작성했습니다.**
+> [revfactory/harness](https://github.com/revfactory/harness) (Claude Code용 메타스킬) · Codex 포트 [SaehwanPark/meta-harness](https://github.com/SaehwanPark/meta-harness) · 연구 저장소 [revfactory/claude-code-harness](https://github.com/revfactory/claude-code-harness) · [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc).
+> 도구의 구체적 명령·구조·수치는 각 저장소가 갱신되면 달라질 수 있으니, 적용 전 원본 README를 직접 확인하세요.
 
 ---
 
@@ -129,4 +131,4 @@ your-project/.claude/
 | claude-code-harness (연구·측정) | https://github.com/revfactory/claude-code-harness |
 | Claude Code용 Codex 플러그인 | https://github.com/openai/codex-plugin-cc |
 
-> 위 도구들은 서드파티(또는 타 에이전트 생태계) 프로젝트를 포함합니다. 설치 전 출처·라이선스·권한을 직접 확인하세요 — 도구는 곧 권한입니다(본문 084).
+> 이 부록의 설명·패턴·수치는 위 저장소들의 README(특히 revfactory/harness)를 참고해 정리한 것입니다. 위 도구들은 서드파티(또는 타 에이전트 생태계) 프로젝트를 포함합니다. 설치 전 출처·라이선스·권한을 직접 확인하세요 — 도구는 곧 권한입니다(본문 084).
