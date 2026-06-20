@@ -46,6 +46,8 @@ define_program(
 
 > 정책에 테스트가 내장되어 있다는 점이 인상적입니다. 규칙이 의도대로 동작하는지 정책 파일이 스스로 검증합니다.
 
+> 참고: 위 `define_program`·`should_match` 형식은 초기(legacy) 정책 API(`execpolicy-legacy`)입니다. 현재 `codex-rs/execpolicy` 크레이트는 "접두사(prefix) 기반 Starlark 규칙"으로 재구성됐습니다(내부적으로 `add_prefix_rule` 등). 결정(Allow/Prompt/Forbidden)과 Starlark로 정의한다는 원리는 동일하니, 정확한 현행 문법은 저장소를 확인하세요.
+
 ## 자동 허용은 "읽기 위주 소수"뿐
 
 기본 정책에서 승인 없이 자동 허용되는 명령은 사실상 안전한 읽기 명령 소수입니다. 대표적으로:
