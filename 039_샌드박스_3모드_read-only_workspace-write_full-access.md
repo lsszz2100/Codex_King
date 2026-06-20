@@ -1,7 +1,5 @@
 # 039. 샌드박스 3모드 — read-only / workspace-write / full-access
 
-![그림 39-1. 샌드박스 세 모드 비교](images/039_sandbox_modes.png)
-
 샌드박스의 통제 강도는 세 가지 모드로 정합니다. 각각 무엇을 허용하는지 정확히 알아야 안전하게 쓸 수 있습니다.
 
 ## 세 모드 한눈에
@@ -87,5 +85,3 @@ sandbox_mode = "danger-full-access"
 ---
 
 다음 절에서 짝꿍인 승인 정책 4종을 다룹니다.
-
-> `images/039_sandbox_modes.png` — 부록 프롬프트 참고

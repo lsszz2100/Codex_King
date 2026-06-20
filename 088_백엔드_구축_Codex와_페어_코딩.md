@@ -1,7 +1,5 @@
 # 088. 백엔드 구축 — Codex와 페어 코딩
 
-![그림 88-1. AI와 페어 코딩으로 백엔드 구축](images/088_backend.png)
-
 이제 본격적으로 만듭니다. 058번의 Todo API를 모듈화하고, TaskFlow의 핵심인 AI 우선순위 추천 기능을 붙입니다.
 
 ## Step 1. 구조 모듈화
@@ -123,5 +121,3 @@ git add . && git commit -m "Add AI priority suggestion with fallback"
 ---
 
 다음 절에서 프런트엔드를 "AI 슬롭" 없이 구축합니다.
-
-> `images/088_backend.png` — 부록 프롬프트 참고

@@ -1,7 +1,5 @@
 # 048. MCP 서버 연결하기 (`codex mcp add`)
 
-![그림 48-1. MCP 서버 추가 과정](images/048_mcp_add.png)
-
 이제 실제로 MCP 서버를 Codex에 붙여 봅니다. 생각보다 간단합니다.
 
 ## 방법 1: CLI로 추가 (가장 쉬움)
@@ -113,5 +111,3 @@ codex mcp list          # 등록된 서버 목록 (환경에 따라)
 ---
 
 다음 절에서 인기 MCP 서버들의 실전 활용을 봅니다.
-
-> `images/048_mcp_add.png` — 부록 프롬프트 참고

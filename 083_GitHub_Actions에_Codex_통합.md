@@ -1,7 +1,5 @@
 # 083. GitHub Actions에 Codex 통합
 
-![그림 83-1. CI 파이프라인에 Codex 통합](images/083_actions.png)
-
 `codex exec`(055번)와 SDK(077번)를 CI/CD에 넣으면, PR마다 자동으로 Codex가 일하는 파이프라인을 만들 수 있습니다.
 
 ## 무엇을 자동화할 수 있나
@@ -115,5 +113,3 @@ OPENAI_API_KEY는 secrets에서 읽도록."
 ---
 
 다음 절에서 보안과 거버넌스, 그리고 Codex Security를 다룹니다.
-
-> `images/083_actions.png` — 부록 프롬프트 참고

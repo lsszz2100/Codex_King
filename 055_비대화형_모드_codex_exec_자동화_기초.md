@@ -1,7 +1,5 @@
 # 055. 비대화형 모드 `codex exec` (자동화 기초)
 
-![그림 55-1. 스크립트로 Codex 실행](images/055_exec.png)
-
 지금까지는 대화형(TUI)으로 Codex를 썼습니다. 하지만 사람이 지켜보지 않아도 돌아가는 자동화가 필요할 때가 있습니다. 그게 `codex exec`입니다.
 
 ## `codex exec`란
@@ -90,5 +88,3 @@ codex exec "이번 변경 요약을 한 문단으로 써줘" > summary.txt
 ---
 
 다음 절에서 Codex와 Git을 함께 쓰는 안전 수칙을 정리합니다.
-
-> `images/055_exec.png` — 부록 프롬프트 참고

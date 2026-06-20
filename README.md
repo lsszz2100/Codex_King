@@ -4,7 +4,7 @@
 
 > GitHub: https://github.com/lsszz2100/Codex_King
 
-![책 표지](images/cover.png)
+![책 표지](https://raw.githubusercontent.com/lsszz2100/Codex_King/main/images/cover.png)
 
 | 항목 | 내용 |
 | --- | --- |

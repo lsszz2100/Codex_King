@@ -1,7 +1,5 @@
 # 068. 명령 정책 execpolicy와 Starlark DSL
 
-![그림 68-1. 명령을 허용/질문/금지로 분류하는 정책](images/068_execpolicy.png)
-
 19번에서 "안전한 명령은 자동 허용, 위험한 건 승인"이라고 했습니다. 그 판단을 내리는 게 execpolicy 입니다. 샌드박스와는 다른 계층의 안전장치입니다.
 
 ## execpolicy란
@@ -94,5 +92,3 @@ codex execpolicy --help      # 정책 관련 기능
 ---
 
 다음 절에서 이 모든 안전장치를 한데 모은 4겹 권한 모델을 봅니다.
-
-> `images/068_execpolicy.png` — 부록 프롬프트 참고

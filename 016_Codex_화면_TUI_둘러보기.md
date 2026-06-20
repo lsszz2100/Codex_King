@@ -1,7 +1,5 @@
 # 016. Codex 화면(TUI) 둘러보기
 
-![그림 16-1. Codex TUI 화면 구성](images/016_tui.png)
-
 Codex를 실행하면 나오는 터미널 화면을 TUI(Text User Interface)라고 합니다. 구석구석 알아두면 훨씬 편합니다.
 
 ## 화면 구성 한눈에
@@ -88,5 +86,3 @@ Codex TUI는 색 테마, 단축키(keymap) 등을 바꿀 수 있습니다.
 ---
 
 화면에 익숙해졌으니, 다음 절에서 첫 번째 진짜 코드 생성 실습을 합니다.
-
-> `images/016_tui.png` — 부록 프롬프트 참고

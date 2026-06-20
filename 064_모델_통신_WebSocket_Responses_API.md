@@ -1,7 +1,5 @@
 # 064. 모델 통신 — WebSocket Responses API
 
-![그림 64-1. 턴 단위 WebSocket 세션](images/064_websocket.png)
-
 Codex 엔진이 GPT-5.5와 실제로 어떻게 대화하는지 봅니다. 여기엔 성능을 위한 영리한 설계가 숨어 있습니다.
 
 ## Responses API
@@ -77,5 +75,3 @@ model_provider = "openai"      # 제공자 (커스텀 가능)
 ---
 
 다음 절에서 대화가 길어질 때의 마법 — 컨텍스트 압축의 원리를 봅니다.
-
-> `images/064_websocket.png` — 부록 프롬프트 참고

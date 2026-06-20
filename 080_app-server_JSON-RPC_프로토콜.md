@@ -1,7 +1,5 @@
 # 080. app-server JSON-RPC 프로토콜
 
-![그림 80-1. 모든 클라이언트가 붙는 app-server](images/080_appserver.png)
-
 SDK·IDE 확장·데스크톱 앱은 모두 같은 곳에 연결됩니다 — app-server. 이 절에서 그 통합 진입점을 이해합니다.
 
 ## app-server란
@@ -99,5 +97,3 @@ codex mcp-server         # Codex를 MCP 서버로 노출 (다른 AI가 Codex를 
 ---
 
 다음 절에서 클라우드 실행 환경 — Codex Cloud와 Environments를 심화합니다.
-
-> `images/080_appserver.png` — 부록 프롬프트 참고

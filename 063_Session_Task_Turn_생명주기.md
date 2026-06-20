@@ -1,7 +1,5 @@
 # 063. Session > Task > Turn 생명주기
 
-![그림 63-1. Session, Task, Turn의 계층](images/063_lifecycle.png)
-
 Codex의 작업은 Session > Task > Turn 이라는 3단 계층으로 구성됩니다. 이 구조를 알면 "왜 작업이 중단됐지?", "어떻게 이어가지?"가 명쾌해집니다.
 
 ## 3단 계층 한눈에
@@ -89,5 +87,3 @@ Turn 3: (할 일 없음) → Task 종료
 ---
 
 다음 절에서 엔진이 모델과 실제로 통신하는 방식(WebSocket)을 봅니다.
-
-> `images/063_lifecycle.png` — 부록 프롬프트 참고

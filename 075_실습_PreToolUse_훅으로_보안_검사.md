@@ -1,7 +1,5 @@
 # 075. [실습] PreToolUse 훅으로 보안 검사
 
-![그림 75-1. 위험 명령을 막는 보안 훅](images/075_security_hook.png)
-
 이번 실습에서 위험한 명령을 자동 차단하는 보안 훅을 직접 만듭니다. 자동화를 안전하게 만드는 실전 기술입니다.
 
 ## 목표
@@ -114,5 +112,3 @@ execpolicy → approval → sandbox → permissions
 ---
 
 다음 절에서 Codex의 말투를 바꾸는 Personality 시스템을 봅니다.
-
-> `images/075_security_hook.png` — 부록 프롬프트 참고

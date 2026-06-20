@@ -1,7 +1,5 @@
 # 086. 프로젝트 기획 — AI 할일 SaaS "TaskFlow"
 
-![그림 86-1. TaskFlow 전체 아키텍처](images/086_taskflow_arch.png)
-
 Part 4, 실전 프로젝트에 오신 걸 환영합니다. 지금부터 배운 모든 것을 총동원해, 진짜 동작하는 SaaS TaskFlow를 완성합니다. 이론은 충분히 쌓았습니다 — 이제 만듭니다.
 
 ## 우리가 만들 것 (복습)
@@ -104,5 +102,3 @@ codex
 ---
 
 다음 절에서 요구사항을 AGENTS.md와 Goal로 구체화합니다.
-
-> `images/086_taskflow_arch.png` — 부록 프롬프트 참고

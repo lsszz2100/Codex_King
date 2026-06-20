@@ -1,7 +1,5 @@
 # 051. SKILL.md 작성법과 progressive disclosure
 
-![그림 51-1. SKILL.md 구조](images/051_skillmd.png)
-
 스킬의 심장은 `SKILL.md` 파일입니다. 이 절에서 그 구조와 잘 쓰는 법을 익힙니다.
 
 ## 최소 구조
@@ -101,5 +99,3 @@ create-endpoint/
 ---
 
 다음 절에서 나만의 커스텀 스킬을 완성하고 사용해 봅니다.
-
-> `images/051_skillmd.png` — 부록 프롬프트 참고

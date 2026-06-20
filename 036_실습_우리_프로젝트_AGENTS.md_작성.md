@@ -1,7 +1,5 @@
 # 036. [실습] 우리 프로젝트 AGENTS.md 작성
 
-![그림 36-1. TaskFlow용 AGENTS.md 작성](images/036_taskflow_agentsmd.png)
-
 이제 배운 걸 적용해, 우리 실전 프로젝트 TaskFlow의 AGENTS.md를 만듭니다. 이 파일은 Part 4에서 그대로 재사용합니다.
 
 ## Step 1. 프로젝트 폴더 준비
@@ -104,5 +102,3 @@ git commit -m "Add project rules in AGENTS.md"
 ---
 
 다음 절에서 Codex의 Memories(기억) 기능을 다룹니다.
-
-> `images/036_taskflow_agentsmd.png` — 부록 프롬프트 참고

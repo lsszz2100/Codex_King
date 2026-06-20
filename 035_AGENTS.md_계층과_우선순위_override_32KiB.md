@@ -1,7 +1,5 @@
 # 035. AGENTS.md 계층과 우선순위 (override, 32KiB)
 
-![그림 35-1. 루트에서 하위로 병합되는 AGENTS.md](images/035_agentsmd_hierarchy.png)
-
 AGENTS.md는 한 개만 두는 게 아닙니다. 여러 계층으로 두고, 가까운 것이 먼 것을 덮는 구조입니다. 이 메커니즘을 정확히 알면 대규모 프로젝트도 깔끔하게 통제할 수 있습니다.
 
 ## 세 계층의 탐색 순서
@@ -86,5 +84,3 @@ project_doc_fallback_filenames = ["CLAUDE.md", "CONVENTIONS.md"]
 ---
 
 다음 절에서 우리 프로젝트 TaskFlow를 위한 실전 AGENTS.md를 직접 작성합니다.
-
-> `images/035_agentsmd_hierarchy.png` — 부록 프롬프트 참고

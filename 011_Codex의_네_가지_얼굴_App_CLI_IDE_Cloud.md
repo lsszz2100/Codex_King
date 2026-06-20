@@ -1,7 +1,5 @@
 # 011. Codex의 네 가지 얼굴 — App / CLI / IDE / Cloud
 
-![그림 11-1. Codex의 네 가지 사용 형태](images/011_four_faces.png)
-
 Codex는 하나가 아닙니다. 같은 두뇌(GPT-5.5)를 네 가지 몸으로 만날 수 있습니다. 상황에 맞게 고르면 됩니다.
 
 ## 1) CLI — 터미널의 Codex
@@ -74,5 +72,3 @@ codex app
 ---
 
 다음 절에서는 실제로 손을 움직입니다 — 개발 환경 준비부터 시작합니다.
-
-> `images/011_four_faces.png` — 부록 프롬프트 참고

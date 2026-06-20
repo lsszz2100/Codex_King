@@ -1,7 +1,5 @@
 # 081. Codex Cloud 심화와 Environments
 
-![그림 81-1. 클라우드 격리 환경에서의 작업](images/081_cloud.png)
-
 011번에서 본 Cloud를 깊이 다룹니다. 장시간·병렬·팀 작업에서 클라우드는 강력한 무기입니다.
 
 ## Codex Cloud란
@@ -92,5 +90,3 @@ Codex Cloud는 ChatGPT Plus·Pro·Business·Edu·Enterprise에 포함됩니다. 
 ---
 
 다음 절에서 GitHub `@codex`로 PR을 자동화하는 실습을 합니다.
-
-> `images/081_cloud.png` — 부록 프롬프트 참고

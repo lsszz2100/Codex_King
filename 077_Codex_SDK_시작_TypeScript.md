@@ -1,7 +1,5 @@
 # 077. Codex SDK 시작 (TypeScript)
 
-![그림 77-1. SDK로 Codex를 코드에서 제어](images/077_sdk_ts.png)
-
 지금까지는 Codex를 "사용"했습니다. 이제 Codex를 내 프로그램 안에서 부품처럼 제어합니다. 그 도구가 SDK입니다. 나만의 AI 도구·자동화를 만들 수 있습니다.
 
 ## SDK란
@@ -114,5 +112,3 @@ package.json과 실행 방법도 함께."
 ---
 
 다음 절에서 Python SDK를 다룹니다.
-
-> `images/077_sdk_ts.png` — 부록 프롬프트 참고

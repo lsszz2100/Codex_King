@@ -1,7 +1,5 @@
 # 097. `config.toml` 전체 레퍼런스
 
-![그림 97-1. config.toml 설정 지도](images/097_config_ref.png)
-
 Codex 설정의 주요 키를 한자리에 정리합니다. 위치는 `~/.codex/config.toml`(유저) 또는 `<프로젝트>/.codex/config.toml`(프로젝트, 신뢰된 경우)입니다(032번).
 
 ## 모델·추론
@@ -134,5 +132,3 @@ log_dir = "..."           # 로그 위치
 ---
 
 다음 절에서 CLI 서브커맨드를 정리합니다.
-
-> `images/097_config_ref.png` — 부록 프롬프트 참고

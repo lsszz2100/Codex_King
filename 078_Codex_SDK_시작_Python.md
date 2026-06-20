@@ -1,7 +1,5 @@
 # 078. Codex SDK 시작 (Python)
 
-![그림 78-1. Python에서 Codex 제어](images/078_sdk_py.png)
-
 파이썬 사용자를 위한 SDK입니다. TaskFlow가 파이썬 백엔드이니, 파이썬 SDK로 자동화를 붙이기 좋습니다.
 
 ## 설치
@@ -120,5 +118,3 @@ requirements와 실행법도 함께."
 ---
 
 다음 절에서 SDK로 실제 작은 에이전트 앱을 만들어 봅니다.
-
-> `images/078_sdk_py.png` — 부록 프롬프트 참고

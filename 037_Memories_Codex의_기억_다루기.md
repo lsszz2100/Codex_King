@@ -1,7 +1,5 @@
 # 037. Memories — Codex의 기억 다루기
 
-![그림 37-1. 세션을 넘어 이어지는 기억](images/037_memories.png)
-
 AGENTS.md가 "명시적으로 적은 규칙"이라면, Memories는 Codex가 작업하며 스스로 쌓는 기억입니다. 어제의 맥락을 오늘로 가져옵니다.
 
 ## Memories란
@@ -97,5 +95,3 @@ disable_on_external_context = true # MCP/웹검색을 쓴 세션은 기억에서
 ---
 
 다음 절부터 안전의 핵심 샌드박스를 본격적으로 다룹니다.
-
-> `images/037_memories.png` — 부록 프롬프트 참고

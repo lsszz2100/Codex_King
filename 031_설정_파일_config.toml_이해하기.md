@@ -1,7 +1,5 @@
 # 031. 설정 파일 `config.toml` 이해하기
 
-![그림 31-1. config.toml로 Codex 길들이기](images/031_config.png)
-
 Part 2, 중급에 오신 걸 환영합니다. 초급이 "도구에 익숙해지기"였다면, 중급은 "Codex를 내 방식대로 길들이기" 입니다. 그 출발점이 설정 파일입니다.
 
 ## config.toml이란
@@ -99,5 +97,3 @@ memories = true
 ---
 
 다음 절에서 유저 설정과 프로젝트 설정의 관계·우선순위를 정리합니다.
-
-> `images/031_config.png` — 부록 프롬프트 참고

@@ -1,7 +1,5 @@
 # 058. [실습] To-Do API 서버 만들기 (FastAPI)
 
-![그림 58-1. FastAPI로 만드는 To-Do API](images/058_todo_api.png)
-
 드디어 TaskFlow의 첫 실제 코드를 만듭니다. 지금까지 배운 모든 것(명확한 요청·쪼개기·검증·AGENTS.md·승인)을 총동원합니다. 이 결과물은 Part 4에서 확장됩니다.
 
 ## 목표
@@ -141,5 +139,3 @@ git commit -m "Add in-memory Todo CRUD API with tests"
 ---
 
 다음 절에서 중급에서 흔한 실수를 정리합니다.
-
-> `images/058_todo_api.png` — 부록 프롬프트 참고

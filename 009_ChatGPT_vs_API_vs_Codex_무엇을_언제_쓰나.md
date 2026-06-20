@@ -1,7 +1,5 @@
 # 009. ChatGPT vs API vs Codex — 무엇을 언제 쓰나
 
-![그림 9-1. 세 가지 접점 비교](images/009_three_ways.png)
-
 같은 GPT-5.5라도 어디서 만나느냐에 따라 쓰임새가 다릅니다. 초보자가 가장 헷갈리는 지점이니 확실히 정리합시다.
 
 ## 세 가지 접점
@@ -61,5 +59,3 @@ A. Codex는 ChatGPT Plus·Pro·Business·Edu·Enterprise 플랜에 포함되며,
 ---
 
 다음 절부터 드디어 Codex 본체로 들어갑니다.
-
-> `images/009_three_ways.png` — 부록 프롬프트 참고
