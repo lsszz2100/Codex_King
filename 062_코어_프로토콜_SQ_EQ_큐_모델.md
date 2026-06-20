@@ -1,5 +1,11 @@
 # 062. 코어 프로토콜 — SQ/EQ 큐 모델
 
+```mermaid
+flowchart LR
+    UI["UI"] -->|"SQ 제출 큐"| Engine["엔진"]
+    Engine -->|"EQ 이벤트 큐"| UI
+```
+
 Codex 엔진과 UI(터미널·앱·IDE)는 어떻게 대화할까요? 답은 두 개의 큐(queue) 입니다. 이 모델을 이해하면 Codex의 모든 인터페이스가 한 번에 이해됩니다.
 
 ## 핵심 아이디어: UI와 엔진의 분리

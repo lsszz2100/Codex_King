@@ -1,5 +1,14 @@
 # 011. Codex의 네 가지 얼굴 — App / CLI / IDE / Cloud
 
+```mermaid
+flowchart TB
+    Brain(("GPT 두뇌"))
+    CLI["CLI 터미널"] --- Brain
+    App["App 데스크톱"] --- Brain
+    IDE["IDE 에디터"] --- Brain
+    Cloud["Cloud 클라우드"] --- Brain
+```
+
 Codex는 하나가 아닙니다. 같은 두뇌(GPT-5.5)를 네 가지 몸으로 만날 수 있습니다. 상황에 맞게 고르면 됩니다.
 
 ## 1) CLI — 터미널의 Codex

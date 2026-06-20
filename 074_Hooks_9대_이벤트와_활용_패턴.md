@@ -1,5 +1,10 @@
 # 074. Hooks 9대 이벤트와 활용 패턴
 
+```mermaid
+flowchart LR
+    A["SessionStart"] --> B["UserPrompt"] --> C["PreToolUse"] --> D["PostToolUse"] --> E["Stop"]
+```
+
 훅을 제대로 쓰려면 어떤 시점에 끼어들 수 있는지를 알아야 합니다. Codex가 제공하는 주요 라이프사이클 이벤트를 정리합니다.
 
 ## 라이프사이클 이벤트 목록

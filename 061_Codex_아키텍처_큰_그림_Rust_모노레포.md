@@ -1,5 +1,13 @@
 # 061. Codex 아키텍처 큰 그림 (Rust 모노레포)
 
+```mermaid
+flowchart TB
+    UI["UI: CLI/App/IDE/Cloud"] <--> Core["코어 엔진 (Rust)"]
+    Core <--> Model["모델 (Responses API)"]
+    Core --> Safety["안전 계층: execpolicy·승인·샌드박스·권한"]
+    Safety --> Act["실제 동작: 파일·명령·네트워크"]
+```
+
 Part 3, 고급에 오신 걸 환영합니다. 지금부터는 커튼 뒤를 봅니다. Codex가 *실제로* 어떻게 만들어졌는지 이해하면, 문제를 더 깊이 진단하고 더 강력하게 확장할 수 있습니다.
 
 > 이 Part는 내부 원리를 다룹니다. 당장 실무에 급하지 않다면 가볍게 읽고, 필요할 때 돌아와도 됩니다. 하지만 "왜 이렇게 동작하지?"의 답이 여기 있습니다.

@@ -1,5 +1,13 @@
 # 063. Session > Task > Turn 생명주기
 
+```mermaid
+flowchart TB
+    S["Session"] --> T["Task"]
+    T --> Tu1["Turn"]
+    T --> Tu2["Turn"]
+    Tu1 -.->|자기수정 루프| Tu2
+```
+
 Codex의 작업은 Session > Task > Turn 이라는 3단 계층으로 구성됩니다. 이 구조를 알면 "왜 작업이 중단됐지?", "어떻게 이어가지?"가 명쾌해집니다.
 
 ## 3단 계층 한눈에

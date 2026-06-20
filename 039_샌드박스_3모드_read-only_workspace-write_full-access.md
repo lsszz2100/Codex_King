@@ -1,5 +1,10 @@
 # 039. 샌드박스 3모드 — read-only / workspace-write / full-access
 
+```mermaid
+flowchart LR
+    RO["read-only<br/>읽기만"] --> WW["workspace-write<br/>작업폴더 쓰기"] --> FA["danger-full-access<br/>전체 접근(위험)"]
+```
+
 샌드박스의 통제 강도는 세 가지 모드로 정합니다. 각각 무엇을 허용하는지 정확히 알아야 안전하게 쓸 수 있습니다.
 
 ## 세 모드 한눈에
