@@ -30,6 +30,11 @@
 
 전체 목차는 [`000_목차.md`](000_목차.md) 를 참고하세요.
 
+## 📬 문의 · 커뮤니티
+
+- ✉️ **이메일**: leemanrank@gmail.com
+- 💬 **인공지능 정보공유 단톡방(오픈채팅)**: https://open.kakao.com/o/s4OEqBai
+
 ---
 
 © 2026 AI_Innovation_Studio. 본 교재의 예제 코드는 자유롭게 사용할 수 있습니다.
